@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "327744063166",
+    "firebase_url": "https://final-cs426-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "final-cs426",
+    "storage_bucket": "final-cs426.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327744063166:android:92899962b0312418aa80ef",
+        "android_client_info": {
+          "package_name": "com.example.doctorappointmentfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327744063166-bhkeocg2ak8qh8v5pkjobc2t0rocvjmv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_s4GRgmGRp9jXkdKy6n6x6AirPMrSgPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327744063166-bhkeocg2ak8qh8v5pkjobc2t0rocvjmv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327744063166:android:9b7ddf80d2c8ca28aa80ef",
+        "android_client_info": {
+          "package_name": "com.example.testcallvideo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327744063166-bhkeocg2ak8qh8v5pkjobc2t0rocvjmv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_s4GRgmGRp9jXkdKy6n6x6AirPMrSgPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327744063166-bhkeocg2ak8qh8v5pkjobc2t0rocvjmv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

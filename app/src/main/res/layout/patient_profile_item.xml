@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="#c3fef4"
+    app:cardBackgroundColor="#FFB300"
+    app:cardCornerRadius="32dp"
+    app:cardElevation="2dp"
+    app:cardMaxElevation="2dp">
+
+    <TextView
+        android:id="@+id/TextView_patient_profile_user_fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:text="User's fullname"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView_patient_profile_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="40sp"
+        android:layout_marginRight="15sp"
+        android:text="Gender"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView_patient_profile_dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="80sp"
+        android:layout_marginRight="15sp"
+        android:text="Date of Birth"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+</androidx.cardview.widget.CardView>

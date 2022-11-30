@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Doctor appointment final</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="typeUser_spinner">
+        <item>Patient</item>
+        <item>Doctor</item>
+    </string-array>
+    <string-array name="typeGender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>

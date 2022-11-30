@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/patientOrderDetailClinicContainer"
+    android:background="#16b948"
+    tools:context=".fragmentAppointment.PatientOrderDetailClinicFragment">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardViewOrderDetailClinic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"
+        android:background="#f9e5c0"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="15dp"
+        app:cardBackgroundColor="#d2e6b2"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:strokeWidth="3dp"
+        app:strokeColor="#4b4e47"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/textYourOrderClinic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:text="Your order"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.154" />
+
+            <TextView
+                android:id="@+id/orderClinicNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="40"
+                android:textSize="45sp"
+                android:textColor="#00a533"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/textYourOrderClinic"
+                app:layout_constraintStart_toStartOf="@+id/textYourOrderClinic"
+                app:layout_constraintTop_toBottomOf="@+id/textYourOrderClinic"
+                />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="26dp"
+                >
+
+                <TextView
+                    android:id="@+id/textTypeOrderClinic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Type:"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/orderClinicType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="Go to clinic"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="26dp"
+                >
+
+                <TextView
+                    android:id="@+id/textAddressOrderClinic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address:"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/orderClinicAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="123 Wall Street, NY, USA"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="26dp"
+                >
+
+                <TextView
+                    android:id="@+id/textRoomOrderClinic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Room:"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/orderClinicRoom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="10"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="26dp"
+                >
+
+                <TextView
+                    android:id="@+id/textSpecialtyOrderClinic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Specialty:"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/orderClinicSpecialty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="Gastroenterology"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="26dp"
+                >
+
+                <TextView
+                    android:id="@+id/textDoctorOrderClinic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Doctor:"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/orderClinicDoctor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="Thomas Williams"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="26dp"
+                >
+
+                <TextView
+                    android:id="@+id/textDateOrderClinic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date:"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/orderClinicDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="08/27/2022"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="26dp"
+                >
+
+                <TextView
+                    android:id="@+id/textTimeOrderClinic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Time:"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/orderClinicTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="9:30 - 10:30 AM"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="26dp"
+                >
+
+                <TextView
+                    android:id="@+id/textTotalFeeOrderClinic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total fee:"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/orderClinicTotalFee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="$12"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="26dp"
+                >
+
+                <TextView
+                    android:id="@+id/textPatientNameOrderClinic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Patient name:"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/orderClinicPatientName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="Laura Clarkson"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="26dp"
+                >
+
+                <TextView
+                    android:id="@+id/textDobOrderClinic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date of birth:"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/orderClinicPatientDob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="10/22/2000"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/clinicGoToMainPage"
+        android:layout_width="243dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:paddingStart="18dp"
+        app:cardBackgroundColor="#fa7c00"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="15dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:strokeColor="#fa7c00"
+        app:strokeWidth="2dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp"
+            android:text="GO TO MAIN PAGE"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

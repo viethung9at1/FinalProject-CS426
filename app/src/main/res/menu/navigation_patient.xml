@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/patientHomeId"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home" />
+    <item android:id="@+id/patientProfileId"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profile"/>
+    <item android:id="@+id/holder"
+        android:title=""/>
+    <item android:id="@+id/patientHistoryId"
+        android:icon="@drawable/ic_baseline_history_24"
+        android:title="History"/>
+    <item android:id="@+id/patientSettingsId"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Settings"/>
+</menu>

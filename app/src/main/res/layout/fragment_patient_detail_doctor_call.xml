@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#d2e6b2"
+    android:id="@+id/patientDetailDoctorCallContainer"
+    tools:context=".fragmentAppointment.PatientDetailDoctorCallFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutDetailCall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#d1f1ff"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="26dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="70dp"
+
+                    app:cardElevation="3dp">
+
+                    <ImageView
+                        android:id="@+id/doctorDetailCallPhoto"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/doctormale1" />
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/doctorDetailCallFullName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Thomas Williams"
+                        android:textColor="#0d75df"
+                        android:textSize="21sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/doctorDetailCallRating"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="4.5"
+                            android:textColor="@color/black"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/doctorDetailCallStar"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="12dp"
+                            android:src="@drawable/ic_baseline_star_rate_24" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/doctorDetailCallTextExperience"
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:layout_marginStart="28dp"
+                                android:text="Experience: "
+                                android:textColor="@color/black"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/doctorDetailCallYearExperience"
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:layout_marginStart="8dp"
+                                android:text="25"
+                                android:textColor="@color/black"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/doctorDetailCallTextYear"
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:layout_marginStart="7dp"
+                                android:text="year(s)"
+                                android:textColor="@color/black"
+                                android:textSize="16sp" />
+
+                            <ToggleButton
+                                android:id="@+id/doctorDetailCallFavButton"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_marginStart="90dp"
+                                android:background="@drawable/toggle_selector"
+                                android:textOff=""
+                                android:textOn="" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/doctorDetailCallAddressClinic"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="28dp"
+                            android:layout_marginBottom="15dp"
+                            android:text="123 Wall Street, NY, USA"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/doctorDetailCallText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="20dp"
+            android:text="You can call doctor now."
+            android:textColor="#2b447a"
+            android:textSize="22sp"
+            android:textStyle="bold"
+
+            />
+        <Button
+            android:id="@+id/doctorDetailCallButton"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginTop="32dp"
+            android:layout_gravity="center_horizontal"
+            android:text="BOOK NOW"
+            android:textSize="24sp"
+            app:cornerRadius="10dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
